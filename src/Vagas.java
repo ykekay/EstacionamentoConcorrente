@@ -52,7 +52,7 @@ public class Vagas {
     //Exibe as informações do estacionamento
     public synchronized void EXIBIR() {
         System.out.println("==========================================");
-        System.out.println("      PAINEL DO ESTACIONAMENTO (VIVO)     ");
+        System.out.println("    PAINEL DO ESTACIONAMENTO (AO VIVO)    ");
         System.out.println("==========================================");
         for (int i = 0; i < listaDeVagas.length; i++) {
             String status = (listaDeVagas[i] == null) ? "[  LIVRE  ]" : "[ " + listaDeVagas[i].modelo + " ]";
