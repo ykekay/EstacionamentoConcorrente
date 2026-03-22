@@ -1,5 +1,5 @@
 public class Vagas {
-    private Carro[] listaDeVagas = new Carro[5];
+    private final Carro[] listaDeVagas = new Carro[5];
     private int vagasDisponiveis = 5;
 
     //metodo pra colocar carro na vaga

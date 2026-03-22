@@ -16,7 +16,7 @@ public class Carro extends Thread {
     }
 
 
-    @Override //sobrescreve o metodo nativa da biblioteca java
+    @Override //sobrescreve o metodo nativo da biblioteca java
     public void run() {
         //tratamento de possiveis erros
         try {
