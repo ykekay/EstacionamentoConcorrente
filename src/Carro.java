@@ -8,10 +8,10 @@ public class Carro extends Thread {
     Vagas listaVagas;
 
     //construtor
-    public Carro(String modelo, String cor, int turnos, Vagas listaVagas) {
+    public Carro(String modelo, String cor, int tempo, Vagas listaVagas) {
         this.modelo = modelo;
         this.cor = cor;
-        this.tempoEstacionado = turnos * 1000;
+        this.tempoEstacionado = tempo * 1000;
         this.listaVagas = listaVagas;
     }
 

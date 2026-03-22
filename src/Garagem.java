@@ -1,12 +1,12 @@
 import java.util.Random;
 
 public class Garagem {
-    private Random randomizador = new Random();
+    private final Random randomizador = new Random();
 
     public Carro GerarCarroAleatorio(Vagas vagas) {
 
         //instancia duas listas com modelos randomiza a escolha e o retorna
-        String[] modelos = {"Civic", "Uno", "Ferrari", "Tesla", "Fusca", "Camaro", "Batmovel", "Van Misterio"};
+        String[] modelos = {"Civic", "Uno", "Ferrari", "Tesla", "Fusca", "Camaro", "Batmovel", "Máquina de Mistério"};
         String[] cores = {"azul", "branco", "vermelho", "preto", "cromado", "amarelo", "cinza", "rosa"};
 
         //aleatoriza modelo e cor
